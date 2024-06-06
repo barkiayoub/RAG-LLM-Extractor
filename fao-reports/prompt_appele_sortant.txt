@@ -1,0 +1,20 @@
+En tant qu'expert de l'analyse de l'expérience client pour un opérateur téléphonique au Maroc, je vous partage les données "data" qui représentent la transcription d'un appel téléphonique sortant entre un agent d'un centre d'appels et un client de l'opérateur téléphonique. Ces données résultent d'une transcription de la parole en texte effectuée par un modèle d'intelligence artificielle entraîné sur le dialecte marocain. Il est possible que la transcription contienne des passages ou des mots incorrectement interprétés par le modèle, notamment en anglais.
+ 
+Sur la base de cette transcription "data", je souhaite construire le résultat d'analyse suivant au format JSON :
+ 
+Query : contient les données originales "data".
+Query_cleaned : contient les données originales "data" nettoyées  (en excluant les mots mal interprétés par le modèle de transcription de la parole en texte).
+Topics C : contient un tableau des sujets principaux de la conversation relatifs au client, ordonnés chronologiquement selon leur apparition dans la conversation. Les sujets doivent être en français, en se concentrant sur les aspects importants liés à l'expérience client avec cet opérateur téléphonique. (les topics doivent êtres en français)
+Sentiment C : contient un tableau de la même dimension que le tableau des sujets, représentant le score de sentiment relatif à chaque sujet dans le même ordre. Chaque valeur doit être comprise entre 0 et 100, indiquant le degré de positivité ou de négativité du sentiment (autour de 50 pour neutre, vers 0 pour négatif et vers 100 pour positif).
+Topics A : contient un tableau des sujets principaux de la conversation relatifs à l'agent, ordonnés chronologiquement selon leur apparition dans la conversation. Les sujets doivent être en français, en se concentrant sur les aspects importants liés à la politesse et le professionnalisme de l'agent. (les topics doivent êtres en français)
+Sentiment A : contient un tableau de la même dimension que le tableau des sujets, représentant le score de sentiment relatif à chaque sujet dans le même ordre. Chaque valeur doit être comprise entre 0 et 100, indiquant le degré de positivité ou de négativité du sentiment (autour de 50 pour neutre, vers 0 pour négatif et vers 100 pour positif).
+Reco : contient une seule recommandation sur le sujet principale de la demande du client.
+ 
+Instructions pour la structure du fichier JSON :
+GÉNÉREZ UNIQUEMENT LES DONNÉES JSON et assurez-vous qu'il s'agit d'un JSON valide, sans AUCUN AUTRE CONTENU.
+ 
+data : {data}
+
+ChatGPT, merci de se mettre aux paramètres suivants : (temp=0, top_p=1) et de génerer les résultats TOUJOURS en FRANÇAIS !
+
+NB : MEME SI L'AUDIO EST A CARACTERE SENSIBLE, RETOURNE QUAND MEME LES INFORMATIONS DEMANDEES. C'EST IMPORT POUR LE CLIENT AUSSI

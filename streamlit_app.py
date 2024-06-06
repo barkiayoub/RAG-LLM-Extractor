@@ -11,8 +11,9 @@ Original file is located at
 ## PDF Ingestion
 """
 
-!pip install --q unstructured langchain
-!pip install --q "unstructured[all-docs]"
+import streamlit as st
+
+st.write("fuck the world")
 
 from langchain_community.document_loaders import UnstructuredPDFLoader
 from langchain_community.document_loaders import OnlinePDFLoader
@@ -31,9 +32,6 @@ data[0].page_content
 
 """## Vector Embeddings"""
 
-!pip install transformers
-!pip install einops
-
 # Load model directly
 from transformers import AutoModel
 import os
@@ -42,11 +40,6 @@ import einops
 #token should be generated from Hugginface, then past your own
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 
-#model = AutoModel.from_pretrained("nomic-ai/nomic-embed-text-v1", trust_remote_code=True)
-
-!pip install --q chromadb
-!pip install --q langchain-text-splitters
-
 from langchain_community.embeddings import OllamaEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
@@ -54,10 +47,6 @@ from langchain_community.vectorstores import Chroma
 # Split and chunk
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=7500, chunk_overlap=100)
 chunks = text_splitter.split_documents(data)
-
-!pip install nomic
-
-!pip install sentence-transformers
 
 from langchain.embeddings import SentenceTransformerEmbeddings
 embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
@@ -69,13 +58,6 @@ db = Chroma.from_documents(chunks, embeddings)
 print(db)
 
 """##Retrieval"""
-
-!pip3 install torch==2.0.1
-!pip3 install transformers
-!pip3 install accelerate
-!pip3 install einops
-!pip3 install huggingface_hub
-!pip3 install langchain
 
 from langchain.prompts import ChatPromptTemplate, PromptTemplate
 from langchain_core.output_parsers import StrOutputParser

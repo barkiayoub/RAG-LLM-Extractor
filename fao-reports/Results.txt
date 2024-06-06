@@ -1,0 +1,83 @@
+Mistral: 
+
+{
+        "Query": "Good evening, I have some problems with my internet connection. Good evening, I am the help desk. How can I assist you today? My connection is dropping, and I feel very frustrated. I understand your frustration, and we apologize for any inconvenience. Can you tell me if this is happening regularly? Yes, it happens every day, and it is affecting my work. I understand. Can you tell me if this happens when you are using a specific device or doing a particular activity on the internet? Not really, it happens whenever I connect. Thank you for the information. Can you tell me if you have any problems when using WiFi or when you are connected directly with the internet cable?I am affected when I connect via WiFi. Can you try connecting directly with the internet cable and see if the problem persists? Yes, I can try. Can you tell me if the problem continues? No, when I connect directly with the internet cable, the connection is good. Can you try changing your WiFi channel? This can help reduce interference. How can I do this? You can do this by accessing your modem's settings. If you don't know how, I can help you. Yes, please. The first step is to open your internet browser and enter your modem's IP address. You will need to enter your username and password. After logging in, you need to select the WiFi settings and change the channel.Thank you very much for your help. I will try this and see if the problem persists. You can always call us if you have any other problems. Good night, and thank you for your patience. Good night, and thank you for your help.",
+        "Query_cleaned": "Good evening, I have problems with my internet connection. Good evening, I am the help desk. How can I assist you today? My connection is dropping, and I am frustrated. I understand your frustration, and we apologize for any inconvenience. Does this happen regularly? Yes, every day. It affects my work. Does this happen with a specific device or activity on the internet? Not really, it happens whenever I connect. Do you have problems with WiFi or when connected directly with the internet cable? I am affected with WiFi. Can you try connecting directly with the internet cable and see if the problem persists? Yes, I can try. Does the problem continue? No, when connected directly with the internet cable, the connection is good. Can you try changing your WiFi channel? This can help reduce interference. How can I do this? You can do this by accessing your modem's settings. If you don't know how, I can help you. The first step is to open your internet browser and enter your modem's IP address. You will need to enter your username and password. After logging in, you need to select the WiFi settings and change the channel. Thank you very much for your help. I will try this and see if the problem persists. You can always call us if you have any other problems. Good night, and thank you for your patience. Good night, and thank you for your help.",
+        "Topics C": ["Problèmes d'internet", "Frustration", "Travail", "Utilisation WiFi", "Connexion directe avec l'internet cable"],
+        "Sentiment C": [80, 90, 70, 60, 70],
+        "Topics A": ["Politesse", "Professionnalisme", "Aide", "Frustration"],
+        "Sentiment A": [100, 100, 100, 90, 80],
+        "Source": "Problèmes d'internet liés à la connexion WiFi",
+        "Resolue": "Non, le problème persiste lors de la connexion WiFi",
+        "Reco": "Essayer de changer le canal WiFi pour réduire l'interférence"
+    }
+
+
+ChatGPT 3.5:
+
+{
+    "Query": "Bonne soirée, j'ai des problèmes avec ma connexion internet. Bonsoir, je suis le service d'assistance. Comment puis-je vous aider aujourd'hui ? Ma connexion se coupe et je suis très frustré. Je comprends votre frustration, et nous nous excusons pour tout inconvénient. Pouvez-vous me dire si cela se produit régulièrement ? Oui, cela arrive tous les jours, et cela affecte mon travail. Je comprends. Pouvez-vous me dire si cela se produit lorsque vous utilisez un appareil spécifique ou si vous faites une activité particulière sur Internet ? Pas vraiment, cela se produit chaque fois que je me connecte. Merci pour l'information. Pouvez-vous me dire si vous rencontrez des problèmes lorsque vous utilisez le WiFi ou lorsque vous êtes connecté directement avec le câble Internet ? Je suis affecté lorsque je me connecte via WiFi. Pouvez-vous essayer de vous connecter directement avec le câble Internet et voir si le problème persiste ? Oui, je peux essayer. Pouvez-vous me dire si le problème continue ? Non, lorsque je me connecte directement avec le câble Internet, la connexion est bonne. Pouvez-vous essayer de changer le canal WiFi ? Cela peut aider à réduire les interférences. Comment puis-je faire cela ? Vous pouvez le faire en accédant aux paramètres de votre modem. Si vous ne savez pas comment faire, je peux vous aider. Oui, s'il vous plaît. La première étape consiste à ouvrir votre navigateur Internet et à entrer l'adresse IP de votre modem. Vous devrez entrer votre nom d'utilisateur et votre mot de passe. Après vous être connecté, vous devez sélectionner les paramètres WiFi et changer le canal. Merci beaucoup pour votre aide. Je vais essayer cela et voir si le problème persiste. Vous pouvez toujours nous appeler si vous avez d'autres problèmes. Bonne nuit et merci pour votre patience. Bonne nuit et merci pour votre aide.",
+    "Query_cleaned": "Bonne soirée, j'ai des problèmes avec ma connexion internet. Bonsoir, je suis le service d'assistance. Comment puis-je vous aider aujourd'hui ? Ma connexion se coupe et je suis très frustré. Je comprends votre frustration, et nous nous excusons pour tout inconvénient. Pouvez-vous me dire si cela se produit régulièrement ? Oui, cela arrive tous les jours, et cela affecte mon travail. Je comprends. Pouvez-vous me dire si cela se produit lorsque vous utilisez un appareil spécifique ou si vous faites une activité particulière sur Internet ? Pas vraiment, cela se produit chaque fois que je me connecte. Merci pour l'information. Pouvez-vous me dire si vous rencontrez des problèmes lorsque vous utilisez le WiFi ou lorsque vous êtes connecté directement avec le câble Internet ? Je suis affecté lorsque je me connecte via WiFi. Pouvez-vous essayer de vous connecter directement avec le câble Internet et voir si le problème persiste ? Oui, je peux essayer. Pouvez-vous me dire si le problème continue ? Non, lorsque je me connecte directement avec le câble Internet, la connexion est bonne. Pouvez-vous essayer de changer le canal WiFi ? Cela peut aider à réduire les interférences. Comment puis-je faire cela ? Vous pouvez le faire en accédant aux paramètres de votre modem. Si vous ne savez pas comment faire, je peux vous aider. Oui, s'il vous plaît. La première étape consiste à ouvrir votre navigateur Internet et à entrer l'adresse IP de votre modem. Vous devrez entrer votre nom d'utilisateur et votre mot de passe. Après vous être connecté, vous devez sélectionner les paramètres WiFi et changer le canal. Merci beaucoup pour votre aide. Je vais essayer cela et voir si le problème persiste. Vous pouvez toujours nous appeler si vous avez d'autres problèmes. Bonne nuit et merci pour votre patience. Bonne nuit et merci pour votre aide.",
+    "Topics C": [
+        "Problèmes de connexion Internet",
+        "Fréquence des problèmes",
+        "Impact sur le travail",
+        "Problèmes avec le WiFi",
+        "Test de connexion avec câble Internet",
+        "Résolution des problèmes WiFi"
+    ],
+    "Sentiment C": [90, 70, 70, 60, 80, 80],
+    "Topics A": [
+        "Accueil",
+        "Compréhension de la frustration du client",
+        "Proposition de solution",
+        "Instructions pour changer le canal WiFi",
+        "Offre d'aide supplémentaire",
+        "Conclusion et souhaits de bonne nuit"
+    ],
+    "Sentiment A": [75, 75, 75, 75, 75, 75],
+    "Source": "Conversation entre l'agent du centre d'appels et le client concernant des problèmes de connexion Internet.",
+    "Resolue": "Partiellement résolu - Le problème de connexion Internet via WiFi a été résolu en connectant directement avec le câble Internet, mais une solution permanente pourrait nécessiter des ajustements supplémentaires dans les paramètres WiFi.",
+    "Reco": "Je recommande de suivre les instructions fournies pour changer le canal WiFi afin de réduire les interférences et d'améliorer la stabilité de la connexion sans fil."
+}
+
+
+ChatGPT 4o:
+
+{
+    "Query": "Good evening, I have some problems with my internet connection. Good evening, I am the help desk. How can I assist you today? My connection is dropping, and I feel very frustrated. I understand your frustration, and we apologize for any inconvenience. Can you tell me if this is happening regularly? Yes, it happens every day, and it is affecting my work. I understand. Can you tell me if this happens when you are using a specific device or doing a particular activity on the internet? Not really, it happens whenever I connect. Thank you for the information. Can you tell me if you have any problems when using WiFi or when you are connected directly with the internet cable? I am affected when I connect via WiFi. Can you try connecting directly with the internet cable and see if the problem persists? Yes, I can try. Can you tell me if the problem continues? No, when I connect directly with the internet cable, the connection is good. Can you try changing your WiFi channel? This can help reduce interference. How can I do this? You can do this by accessing your modem's settings. If you don't know how, I can help you. Yes, please. The first step is to open your internet browser and enter your modem's IP address. You will need to enter your username and password. After logging in, you need to select the WiFi settings and change the channel. Thank you very much for your help. I will try this and see if the problem persists. You can always call us if you have any other problems. Good night, and thank you for your patience. Good night, and thank you for your help.",
+    "Query_cleaned": "Good evening, I have some problems with my internet connection. Good evening, I am the help desk. How can I assist you today? My connection is dropping, and I feel very frustrated. I understand your frustration, and we apologize for any inconvenience. Can you tell me if this is happening regularly? Yes, it happens every day, and it is affecting my work. I understand. Can you tell me if this happens when you are using a specific device or doing a particular activity on the internet? Not really, it happens whenever I connect. Thank you for the information. Can you tell me if you have any problems when using WiFi or when you are connected directly with the internet cable? I am affected when I connect via WiFi. Can you try connecting directly with the internet cable and see if the problem persists? Yes, I can try. Can you tell me if the problem continues? No, when I connect directly with the internet cable, the connection is good. Can you try changing your WiFi channel? This can help reduce interference. How can I do this? You can do this by accessing your modem's settings. If you don't know how, I can help you. Yes, please. The first step is to open your internet browser and enter your modem's IP address. You will need to enter your username and password. After logging in, you need to select the WiFi settings and change the channel. Thank you very much for your help. I will try this and see if the problem persists. You can always call us if you have any other problems. Good night, and thank you for your patience. Good night, and thank you for your help.",
+    "Topics C": [
+            "Problèmes de connexion Internet",
+            "Connexion interrompue régulièrement",
+            "Problèmes affectant le travail",
+            "Connexion via WiFi",
+            "Connexion directe via câble",
+            "Changer le canal WiFi"
+    ],
+    "Sentiment C": [
+            20,
+            10,
+            10,
+            30,
+            80,
+            60
+    ],
+    "Topics A": [
+            "Offre d'assistance",
+            "Demande de détails sur le problème",
+            "Suggestion de connexion directe",
+            "Assistance pour changement de canal WiFi",
+            "Assurance de disponibilité pour future assistance"
+    ],
+    "Sentiment A": [
+            100,
+            90,
+            85,
+            95,
+            100
+    ],
+  "Source": "Le problème est lié à la connexion Internet du client, qui se déconnecte fréquemment lorsqu'il utilise le WiFi. Cependant, la connexion est stable lorsqu'il utilise un câble direct.",
+  "Resolue": "Le problème est partiellement résolu. Le client a été conseillé de changer le canal WiFi pour réduire les interférences, ce qui pourrait améliorer la situation.",
+  "Reco": "Il est recommandé de suivre les instructions pour changer le canal WiFi et d'envisager un routeur plus puissant si le problème persiste."
+}
